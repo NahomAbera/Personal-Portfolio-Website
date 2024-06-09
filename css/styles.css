@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121212;
@@ -227,7 +227,13 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.skills-item i {
+    margin-left: 10px;
+    font-size: 24px;
+    color: #ffcc00; 
+}
 
+ 
 .transcript-link {
     text-align: center;
     margin-top: 20px;
@@ -255,6 +261,97 @@ main {
 .transcript-link a:hover i {
     transform: scale(1.1);
     color: #fff;
+}
+
+#skills .content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    font-size: 36px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+#skills .skills-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-item {
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+}
+
+.skill-icon {
+    font-size: 40px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.skill-title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.skill-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.skill-content i {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-right: 8px;
+}
+
+.skill-content strong {
+    color: #ffcc00;
+}
+.skill-content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.skill-content1 i {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-right: 8px;
+}
+
+.skill-content1 strong {
+    color: #ffcc00;
+}
+.center-content {
+    text-align: center;
+}
+
+.skill-item p {
+    text-align: center;
 }
 
 .details-link {
