@@ -67,7 +67,7 @@ main {
     height: calc(100vh - 60px);
     padding: 20px;
     background: #121212;
-    padding-top: 80px; 
+    padding-top: 80px;
 }
 
 .content {
@@ -157,7 +157,7 @@ main {
     margin-bottom: 20px;
     color: #ffcc00;
     position: relative;
-    text-align: center; 
+    text-align: center;
 }
 
 #education h2::after, #experience h2::after, #projects h2::after, #skills h2::after, #interests h2::after, #contact h2::after {
@@ -199,8 +199,8 @@ main {
 }
 
 .education-item p, .experience-item p, .experience-item ul, .projects-item p, .skills-item p, .interests-item p, .contact-item p {
-    margin: 10px 0; 
-    line-height: 1.6; 
+    margin: 10px 0;
+    line-height: 1.6;
 }
 
 .education-item p strong, .experience-item p strong, .projects-item p strong, .skills-item p strong, .interests-item p strong, .contact-item p strong {
@@ -227,13 +227,13 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .skills-item i {
     margin-left: 10px;
     font-size: 24px;
-    color: #ffcc00; 
+    color: #ffcc00;
 }
 
- 
 .transcript-link {
     text-align: center;
     margin-top: 20px;
@@ -328,6 +328,7 @@ main {
 .skill-content strong {
     color: #ffcc00;
 }
+
 .skill-content1 {
     display: flex;
     flex-direction: column;
@@ -346,6 +347,7 @@ main {
 .skill-content1 strong {
     color: #ffcc00;
 }
+
 .center-content {
     text-align: center;
 }
@@ -355,12 +357,14 @@ main {
 }
 
 .details-link {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    margin-top: 20px;
 }
 
 .details-link a {
-    display: inline-block;
     color: #ffcc00;
     text-decoration: none;
     font-weight: bold;
@@ -379,6 +383,7 @@ main {
 .clickable:hover {
     transform: scale(1.02);
 }
+
 #projects {
     background: #121212;
     padding: 60px 20px;
@@ -392,7 +397,7 @@ main {
     margin-left: 500px;
     color: #ffcc00;
     position: relative;
-    text-align: center; 
+    text-align: center;
 }
 
 #projects h2::after {
@@ -423,6 +428,8 @@ main {
     max-width: 500px;
     text-align: left;
     transition: transform 0.3s;
+    position: relative;
+    padding-bottom: 60px; /* Added padding to make room for the link */
 }
 
 .project-item:hover {
@@ -440,6 +447,10 @@ main {
     line-height: 1.6;
 }
 
+.project-item p strong {
+    color: #ffcc00;
+}
+
 .project-item ul {
     padding-left: 20px;
     margin: 10px 0;
@@ -449,10 +460,13 @@ main {
 .project-media {
     margin-top: 10px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project-media img {
-    width: 100%;
+    width: calc(50% - 10px);
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -525,7 +539,7 @@ main {
         width: 100%;
         padding: 10px;
     }
-    
+
     .navbar-left {
         display: flex;
         align-items: center;
@@ -557,75 +571,76 @@ main {
         display: block;
         cursor: pointer;
         font-size: 24px;
-        padding: 12px; 
+        padding: 12px;
     }
 
     main {
         flex-direction: column;
     }
-    
+
     .content {
         flex-direction: column;
         text-align: center;
         padding: 20px;
     }
-    
+
     .profile-text {
         margin-right: 0;
         margin-bottom: 20px;
     }
-    
+
     .profile-image img {
         width: 200px;
         height: auto;
     }
-    
+
     .social-links {
         justify-content: center;
     }
-    
+
     .social-links a {
         margin: 0 10px;
     }
-    
+
     .social-links a span {
         display: none;
     }
-    
+
     #education .education-details, #experience .experience-details, #projects .projects-details, #skills .skills-details, #interests .interests-details, #contact .contact-details {
         text-align: center;
     }
-    
+
     #education .education-item, #experience .experience-item, #projects .projects-item, #skills .skills-item, #interests .interests-item, #contact .contact-item {
         text-align: left;
     }
-    
+
     .research-images img {
         width: 100%;
         margin-bottom: 10px;
     }
-    
+
     .transcript-link {
         margin-top: 20px;
     }
-    
+
     .interest-categories {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center; 
-        align-items: center; 
+        justify-content: center;
+        align-items: center;
     }
 
     .interest-category {
         flex: 1 1 100%;
         margin-bottom: 10px;
     }
+
     #projects h2 {
         font-size: 36px;
         margin-bottom: 20px;
         margin-left: 0px;
         color: #ffcc00;
         position: relative;
-        text-align: center; 
+        text-align: center;
     }
 }
