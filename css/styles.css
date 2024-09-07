@@ -108,7 +108,8 @@ main {
 
 .profile-image img {
     border-radius: 10px;
-    width: 300px;
+    background-color: #ccc;
+    width: 400px;
     height: auto;
     object-fit: cover;
     border: 3px solid #ffcc00;
