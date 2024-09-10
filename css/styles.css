@@ -430,7 +430,7 @@ main {
     text-align: left;
     transition: transform 0.3s;
     position: relative;
-    padding-bottom: 60px; /* Added padding to make room for the link */
+    padding-bottom: 60px; 
 }
 
 .project-item:hover {
@@ -623,7 +623,14 @@ main {
         width: 100%;
         margin-bottom: 10px;
     }
-
+    .project-media-main img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .project-media iframe {
+        width: 100%; 
+        height: auto; 
+    }
     .transcript-link {
         margin-top: 20px;
     }
