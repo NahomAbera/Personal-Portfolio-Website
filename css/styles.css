@@ -471,7 +471,11 @@ main {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-
+.project-media-main img {
+    width: 500px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 .project-media iframe {
     width: 100%;
     height: 315px;
