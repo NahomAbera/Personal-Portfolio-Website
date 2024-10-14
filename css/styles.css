@@ -217,17 +217,19 @@ main {
 }
 
 .research-images {
+    margin-top: 10px;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .research-images img {
-    width: 24%;
-    margin-bottom: 20px;
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .skills-item i {
     margin-left: 10px;
